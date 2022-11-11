@@ -1,0 +1,192 @@
+V "GNAT Lib v2019"
+A -Og
+A -gnatA
+A -fstack-check=specific
+A -g
+A -gnat2012
+A -gnata
+A -gnateE
+A -gnatE
+A -gnatwa
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnato
+A -gnatVa
+A -mtune=core2
+A -mmacosx-version-min=10.16.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U box_p%b		box_p.adb		c1dfaabb DE NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W globe_3d.textures%s	globe_3d-textures.adb	globe_3d-textures.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+
+U box_p%s		box_p.ads		e8880f3c DE EE NE OO PK
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+
+D ada.ads		20210921144550 76789da1 ada%s
+D a-calend.ads		20210921144549 474d9720 ada.calendar%s
+D a-charac.ads		20210921144549 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210921144549 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20210921144550 61e5e089 ada.containers%s
+D a-cohata.ads		20210921144549 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20210921144549 8205bf40 ada.containers.hashed_maps%s
+D a-conhel.ads		20210921144550 20298884 ada.containers.helpers%s
+D a-except.ads		20210921144550 291912d5 ada.exceptions%s
+D a-finali.ads		20210921144550 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210921144550 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20210921144550 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20210921144550 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20210921144550 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210921144550 119b8fb3 ada.streams%s
+D a-ststio.ads		20210921144550 a75f3183 ada.streams.stream_io%s
+D a-string.ads		20210921144550 90ac6797 ada.strings%s
+D a-strmap.ads		20210921144550 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20210921144550 1656705b ada.strings.unbounded%s
+D a-stunha.ads		20210921144550 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20210921144550 491b781d ada.tags%s
+D a-textio.ads		20210921144550 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210921144550 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20210921144550 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210921144550 eff36322 ada.unchecked_deallocation%s
+D box_p.ads		20210928043926 ed693b63 box_p%s
+D box_p.adb		20210928043926 65ce8a67 box_p%b
+D gl.ads		20210928043926 28e5b432 gl%s
+D gl-buffer.ads		20210928043926 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20210928043926 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20210928043926 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20210928043926 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20210928043926 398a5530 gl.geometry%s
+D gl-materials.ads	20210928043926 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20210928043926 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20210928043926 f0134d84 gl.skins%s
+D gl-textures.ads	20210928043926 6f569eb0 gl.textures%s
+D globe_3d.ads		20210928043926 05e1345f globe_3d%s
+D globe_3d-textures.ads	20210928043926 619daf8d globe_3d.textures%s
+D interfac.ads		20210921144551 5ab55268 interfaces%s
+D i-c.ads		20210921144550 5421119b interfaces.c%s
+D i-cpoint.ads		20210921144551 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20210921144551 e53d8b8e interfaces.c_streams%s
+D system.ads		20210921144551 085b6ffb system%s
+D s-atacco.ads		20210921144551 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20210921144551 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20210921144551 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210921144551 54135002 system.exception_table%s
+D s-fatgen.ads		20210921144551 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20210921144551 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20210921144551 078245e4 system.file_control_block%s
+D s-finmas.ads		20210921144551 7811a767 system.finalization_masters%s
+D s-finroo.ads		20210921144551 4ff27390 system.finalization_root%s
+D s-parame.ads		20210921144551 48ec542b system.parameters%s
+D s-pooglo.ads		20210921144551 ede33ef8 system.pool_global%s
+D s-secsta.ads		20210921144551 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210921144551 a7318a92 system.soft_links%s
+D s-stache.ads		20210921144551 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210921144551 09bd3940 system.standard_library%s
+D s-stoele.ads		20210921144551 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20210921144551 b16154c2 system.storage_pools%s
+D s-stposu.ads		20210921144551 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20210921144551 aedef97e system.stream_attributes%s
+D s-string.ads		20210921144551 8fe54fb7 system.strings%s
+D s-ststop.ads		20210921144551 5fbf1b38 system.strings.stream_ops%s
+D s-traent.ads		20210921144551 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210921144551 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210921144551 1b7d22d2 system.wch_con%s
+D zip.ads		20210928043926 6e4a4be8 zip%s
+D zip_streams.ads	20210928043926 088b1cbe zip_streams%s
+G a e
+G c Z s b [create box_p 5 13 none]
+G r s object_3d [create box_p 5 13 none] [object_3dIP globe_3d 371 9 none]
+G r s face_type [create box_p 5 13 none] [face_typeIP globe_3d 294 9 none]
+G r c none [create box_p 5 13 none] [set_name globe_3d 232 14 none]
+X 7 a-cohama.ads
+96R9*Map<10|43R9>
+X 12 a-iteint.ads
+24h9 Forward_Iterator
+X 26 box_p.ads
+3K9*Box_P 10l5 10e10 27|7b14 63l5 63t10
+5U13*Create 5=21 6>21 7>21 8>21 27|10b14 62l7 62t13
+5p21 Object{38|264P9} 27|10b22 41m7 43r7 45r7 54r7 61r17
+6a21 Sides{38|106A12} 27|11b22 35r51 36r51 37r51
+7f21 Scale{38|102F12} 27|12b22 35r43 36r43 37r43
+8a21 Centre{38|111A12} 27|13b22 43r24
+X 27 box_p.adb
+8K12 g3d=8:24 17r38 35r31 36r31 37r31 41r21
+17V16 Basic_face{38|294R9} 17b16 17>28 18>28 19>28 33l11 33t21 54s23 55s22
+. 56s22 57s22 58s22 59s22
+17a28 P{38|125A9} 25r23
+18r28 colour{28|157R9} 28r23
+19i28 repeat{positive} 30r24 31r24
+21r10 f{38|294R9} 25m10 26m10 27m10 28m10 29m10 30m10 31m10 32r17
+22f10 alpha{28|128F9} 29r23
+23i10 new_id{38|99I9}
+35f7 half_Width{38|102F12} 45r28 46r27 47r24 48r24 49r27 50r27 51r24 52r24
+36f7 half_Height{38|102F12} 45r42 46r40 47r37 48r38 49r41 50r40 51r37 52r38
+37f7 half_Depth{38|102F12} 45r57 46r55 47r52 48r53 49r55 50r54 51r51 52r52
+X 28 gl.ads
+66K9*GL 27|4w6 15r21 18r38 22r19 28|4501e7
+128F9*Double<41|65F9> 27|22r22
+155A9*Double_Vector_3D(128F9)<integer>
+157R9*RGB_Color 27|18r41 28|157e77
+X 30 gl-buffer-general.ads
+14R9 base_Object<29|20R9>
+X 38 globe_3d.ads
+77K9*GLOBE_3D 26|1w6 5r39 6r39 7r39 8r39 27|5r6 8r24 10r40 11r40 12r40 13r40
+. 15r11 15r25 38|606e13
+99I9*Image_ID<integer> 27|23r19
+100i4*null_image{99I9} 27|27r23
+102F12*Real{28|128F9} 26|7r48 27|12r49 35r35 36r35 37r35
+103K12*REF[14|39] 27|15r34
+106A12*Vector_3D{28|155A9}<integer> 26|6r48 27|11r49
+111A12*Point_3D{106A12}<integer> 26|8r48 27|13r49
+121A9*Point_3D_array(111A12)<integer>
+125A9*Natural_Index_array(natural)<integer> 27|17r42
+202a10*Centre{111A12} 27|43m14
+232U14*Set_name 27|61s7
+263R9*Object_3D 27|41r25
+264P9*p_Object_3D(263R9) 26|5r48 27|10r49
+273n23*material_only{270E9} 27|26r23
+294R9*Face_type 27|19r61 21r14 38|331e14
+295a7*P{287A12} 27|25m12
+302e7*skin{270E9} 27|26m12
+304f7*alpha{28|128F9} 27|29m12
+311r7*colour{28|157R9} 27|28m12
+316i7*texture{99I9} 27|27m12
+325i7*repeat_U{positive} 27|30m12
+326i7*repeat_V{positive} 27|31m12
+333A9*Face_array(294R9)<integer>
+372a7*Point{121A9} 27|45m14
+374a7*face{333A9} 27|54m14
+X 39 globe_3d-textures.ads
+1K18*Textures 27|5w15 39|100e22
+X 41 i-c.ads
+65F9*double<long_float>
+

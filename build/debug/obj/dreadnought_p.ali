@@ -1,0 +1,246 @@
+V "GNAT Lib v2019"
+A -Og
+A -gnatA
+A -fstack-check=specific
+A -g
+A -gnat2012
+A -gnata
+A -gnateE
+A -gnatE
+A -gnatwa
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnato
+A -gnatVa
+A -mtune=core2
+A -mmacosx-version-min=10.16.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U dreadnought_p%b	dreadnought_p.adb	5e3684a4 DE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+W gl.materials%s	gl-materials.adb	gl-materials.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W globe_3d.math%s	globe_3d-math.adb	globe_3d-math.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+
+U dreadnought_p%s	dreadnought_p.ads	a8d250dd DE EE NE OO PK
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+
+D ada.ads		20210921144550 76789da1 ada%s
+D a-calend.ads		20210921144549 474d9720 ada.calendar%s
+D a-charac.ads		20210921144549 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210921144549 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20210921144550 61e5e089 ada.containers%s
+D a-cohata.ads		20210921144549 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20210921144549 8205bf40 ada.containers.hashed_maps%s
+D a-conhel.ads		20210921144550 20298884 ada.containers.helpers%s
+D a-except.ads		20210921144550 291912d5 ada.exceptions%s
+D a-finali.ads		20210921144550 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210921144550 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20210921144550 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20210921144550 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20210921144550 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210921144550 119b8fb3 ada.streams%s
+D a-ststio.ads		20210921144550 a75f3183 ada.streams.stream_io%s
+D a-string.ads		20210921144550 90ac6797 ada.strings%s
+D a-strmap.ads		20210921144550 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20210921144550 1656705b ada.strings.unbounded%s
+D a-stunha.ads		20210921144550 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20210921144550 491b781d ada.tags%s
+D a-textio.ads		20210921144550 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210921144550 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20210921144550 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210921144550 eff36322 ada.unchecked_deallocation%s
+D dreadnought_p.ads	20210928043926 ad336482 dreadnought_p%s
+D dreadnought_p.adb	20210928043926 3e9f343e dreadnought_p%b
+D gl.ads		20210928043926 28e5b432 gl%s
+D gl-buffer.ads		20210928043926 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20210928043926 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20210928043926 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20210928043926 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20210928043926 398a5530 gl.geometry%s
+D gl-materials.ads	20210928043926 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20210928043926 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20210928043926 f0134d84 gl.skins%s
+D gl-textures.ads	20210928043926 6f569eb0 gl.textures%s
+D globe_3d.ads		20210928043926 05e1345f globe_3d%s
+D globe_3d-math.ads	20210928043926 a86860bb globe_3d.math%s
+D interfac.ads		20210921144551 5ab55268 interfaces%s
+D i-c.ads		20210921144550 5421119b interfaces.c%s
+D i-cpoint.ads		20210921144551 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20210921144551 e53d8b8e interfaces.c_streams%s
+D system.ads		20210921144551 085b6ffb system%s
+D s-atacco.ads		20210921144551 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20210921144551 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20210921144551 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210921144551 54135002 system.exception_table%s
+D s-fatgen.ads		20210921144551 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20210921144551 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20210921144551 078245e4 system.file_control_block%s
+D s-finmas.ads		20210921144551 7811a767 system.finalization_masters%s
+D s-finroo.ads		20210921144551 4ff27390 system.finalization_root%s
+D s-parame.ads		20210921144551 48ec542b system.parameters%s
+D s-pooglo.ads		20210921144551 ede33ef8 system.pool_global%s
+D s-secsta.ads		20210921144551 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210921144551 a7318a92 system.soft_links%s
+D s-stache.ads		20210921144551 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210921144551 09bd3940 system.standard_library%s
+D s-stoele.ads		20210921144551 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20210921144551 b16154c2 system.storage_pools%s
+D s-stposu.ads		20210921144551 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20210921144551 aedef97e system.stream_attributes%s
+D s-string.ads		20210921144551 8fe54fb7 system.strings%s
+D s-ststop.ads		20210921144551 5fbf1b38 system.strings.stream_ops%s
+D s-traent.ads		20210921144551 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210921144551 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210921144551 1b7d22d2 system.wch_con%s
+D zip.ads		20210928043926 6e4a4be8 zip%s
+D zip_streams.ads	20210928043926 088b1cbe zip_streams%s
+G a e
+G c Z s b [create dreadnought_p 19 14 none]
+G c Z b b [positive_index_arrayIP dreadnought_p 574 8 none]
+G c Z b b [texture_info_arrayIP dreadnought_p 629 8 none]
+G c Z b b [material_infoIP dreadnought_p 1304 8 none]
+G c Z b b [material_info_arrayIP dreadnought_p 1311 8 none]
+G r s face_type [create dreadnought_p 19 14 none] [face_typeIP globe_3d 294 9 none]
+G r s object_3d [create dreadnought_p 19 14 none] [object_3dIP globe_3d 371 9 none]
+G r c none [create dreadnought_p 19 14 none] [set_name globe_3d 232 14 none]
+G r c none [create dreadnought_p 19 14 none] [almost_zero globe_3d__math 83 12 none]
+G r c none [create dreadnought_p 19 14 none] [Omultiply globe_3d__math 7 12 none]
+X 7 a-cohama.ads
+96R9*Map<10|43R9>
+X 12 a-iteint.ads
+24h9 Forward_Iterator
+X 26 dreadnought_p.ads
+18K9*Dreadnought_P 28l5 28e18 27|6b14 1530l5 1530t18
+19U14*Create 20=7 21>7 22>7 23>7 24>7 25>7 26>7 27|1312b13 1529l7 1529t13
+20p7 Object{38|264P9} 27|1313b5 1500m5 1502r15 1503r5 1505r7 1508r9 1527r7
+21f7 Scale{38|102F12} 27|1314b5 1504r21 1508r29
+22a7 Centre{38|111A12} 27|1315b5 1503r22
+23i7 alum_001{38|99I9} 27|1316b5 1326r34
+24i7 grumnoir{38|99I9} 27|1317b5 1336r34 1431r33 1441r34 1453r33 1463r34
+. 1475r33 1485r34
+25i7 tole_001{38|99I9} 27|1318b5 1346r34
+26i7 alum_002{38|99I9} 27|1319b5 1366r34
+X 27 dreadnought_p.adb
+17a3 vertices{38|121A9} 1505r23 1507r16 1508r37
+284a3 face_indices{38|288A9} 630r52 1512r14 1513r19
+574A8 Positive_Index_array(natural)<integer> 575r31
+575a3 face_material_id{574A8} 1514r17
+629A8 Texture_info_array(38|292A12)<integer> 630r32
+630a3 face_texture_info{629A8} 1521r21 1523r21
+1304R8 Material_info 1310e13 1311r60
+1305e5*skin{38|270E9} 1515r54
+1306i5*image{38|99I9} 1516r54
+1307r5*offset{38|290R9} 1521r85 1523r85
+1308r5*tiling{38|290R9} 1522r46 1524r46
+1309r5*material{34|25R8} 1517r54
+1311A8 Material_info_array(1304R8)<integer> 1322r35
+1322a5 face_material_info{1311A8} 1515r26 1516r26 1517r26 1521r57 1522r18
+. 1523r57 1524r18
+1497r5 face_0{38|294R9} 1511m5 1513m7 1515m7 1516m7 1517m7 1518r10 1519r18
+. 1520m11 1527r26
+1498i5 mat_id{positive} 1514m7 1515r46 1516r46 1517r46 1521r77 1522r38 1523r77
+. 1524r38
+1507i11 p{integer} 1508r23 1508r47
+1512i9 f{integer} 1513r33 1514r35 1521r40 1523r40 1527r20
+1519i13 i{integer} 1520r36 1521r44 1523r44
+X 28 gl.ads
+66K9*GL 27|4w6 4r10 8r7 1309r16 28|4501e7
+126F9*C_Float<41|64F9>
+128F9*Double<41|65F9>
+154A9*Material_Float_vector(126F9)<integer>
+155A9*Double_Vector_3D(128F9)<integer>
+X 30 gl-buffer-general.ads
+14R9 base_Object<29|20R9>
+X 34 gl-materials.ads
+1K12*Materials 27|4w13 1309r19 34|265e17
+25R8*Material_type 27|1309r29 34|31e13
+26a5*ambient{28|154A9} 27|1328m17 1338m17 1348m17 1358m17 1368m17 1381m17
+. 1391m17 1401m17 1411m17 1421m17 1433m15 1443m15 1455m15 1465m15 1477m15
+. 1487m15
+27a5*diffuse{28|154A9} 27|1329m17 1339m17 1349m17 1359m17 1369m17 1382m17
+. 1392m17 1402m17 1412m17 1422m17 1434m15 1444m15 1456m15 1466m15 1478m15
+. 1488m15
+28a5*specular{28|154A9} 27|1330m17 1340m17 1350m17 1360m17 1370m17 1383m17
+. 1393m17 1403m17 1413m17 1423m17 1435m15 1445m15 1457m15 1467m15 1479m15
+. 1489m15
+29a5*emission{28|154A9} 27|1331m17 1341m17 1351m17 1361m17 1371m17 1384m17
+. 1394m17 1404m17 1414m17 1424m17 1436m15 1446m15 1458m15 1468m15 1480m15
+. 1490m15
+30f5*shininess{28|126F9} 27|1332m17 1342m17 1352m17 1362m17 1372m17 1385m17
+. 1395m17 1405m17 1415m17 1425m17 1437m15 1447m15 1459m15 1469m15 1481m15
+. 1491m15
+X 38 globe_3d.ads
+77K9*GLOBE_3D 26|16w6 20r23 21r23 22r23 26r18 26r39 27|4r24 8r11 8r21 1313r21
+. 1314r21 1315r21 1319r16 1319r37 38|606e13
+99I9*Image_ID<integer> 26|26r27 27|1306r16 1319r25
+100i4*null_image{99I9} 26|26r48 27|1319r46 1356r34 1379r34 1389r34 1399r34
+. 1409r34 1419r35
+102F12*Real{28|128F9} 26|21r32 27|1314r30
+106A12*Vector_3D{28|155A9}<integer>
+111A12*Point_3D{106A12}<integer> 26|22r32 27|1315r30
+121A9*Point_3D_array(111A12)<integer> 27|17r23
+125A9*Natural_Index_array(natural)<integer>
+202a10*Centre{111A12} 27|1503m12
+232U14*Set_name 27|1502s5
+263R9*Object_3D 27|1501r11
+264P9*p_Object_3D(263R9) 26|20r32 27|1313r30
+270E9*Skin_Type 27|1305r16 38|275e33
+273n23*material_only{270E9} 27|1326r19 1336r19 1346r19 1356r19 1366r19 1379r19
+. 1389r19 1399r19 1409r19 1419r20 1431r18 1441r19 1453r18 1463r19 1475r18
+. 1485r19 1518r24
+287A12*Idx_4_array{125A9}<integer>
+288A9*Idx_4_array_array(287A12)<integer> 27|284r27
+290R9*Map_idx_pair 27|1307r16 1308r16 38|290e68
+290f32*U{28|128F9} 27|1521r47 1521r92 1522r53
+290f35*V{28|128F9} 27|1523r47 1523r92 1524r53
+291A9*Map_idx_pair_array(290R9)<integer>
+292A12*Map_idx_pair_4_array{291A9}<integer> 27|629r59
+294R9*Face_type 27|1497r15 38|331e14
+295a7*P{287A12} 27|1513m14
+302e7*skin{270E9} 27|1515m14 1518r17
+313r7*material{34|25R8} 27|1517m14
+316i7*texture{99I9} 27|1516m14
+322b7*whole_texture{boolean} 27|1511m12
+329a7*texture_edge_map{292A12} 27|1519r25 1520m18
+333A9*Face_array(294R9)<integer>
+372a7*Point{121A9} 27|1505m14 1508m16
+374a7*face{333A9} 27|1527m14
+X 39 globe_3d-math.ads
+1K18*Math 27|4w33 8r30 39|92e18
+7V13*"*"{38|106A12} 27|1508s35
+83V12*Almost_zero{boolean} 27|1504s8
+X 41 i-c.ads
+64F9*C_float<float>
+65F9*double<long_float>
+

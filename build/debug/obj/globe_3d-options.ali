@@ -1,0 +1,135 @@
+V "GNAT Lib v2019"
+A -Og
+A -gnatA
+A -fstack-check=specific
+A -g
+A -gnat2012
+A -gnata
+A -gnateE
+A -gnatE
+A -gnatwa
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnato
+A -gnatVa
+A -mtune=core2
+A -mmacosx-version-min=10.16.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U globe_3d.options%b	globe_3d-options.adb	40c8be3a DE NE OO PK IU
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+
+U globe_3d.options%s	globe_3d-options.ads	92294bb4 DE EE NE OO PK IU
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+
+D ada.ads		20210921144550 76789da1 ada%s
+D a-calend.ads		20210921144549 474d9720 ada.calendar%s
+D a-charac.ads		20210921144549 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210921144549 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20210921144550 61e5e089 ada.containers%s
+D a-cohata.ads		20210921144549 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20210921144549 8205bf40 ada.containers.hashed_maps%s
+D a-conhel.ads		20210921144550 20298884 ada.containers.helpers%s
+D a-except.ads		20210921144550 291912d5 ada.exceptions%s
+D a-finali.ads		20210921144550 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210921144550 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20210921144550 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20210921144550 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20210921144550 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210921144550 119b8fb3 ada.streams%s
+D a-ststio.ads		20210921144550 a75f3183 ada.streams.stream_io%s
+D a-string.ads		20210921144550 90ac6797 ada.strings%s
+D a-strmap.ads		20210921144550 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20210921144550 1656705b ada.strings.unbounded%s
+D a-stunha.ads		20210921144550 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20210921144550 491b781d ada.tags%s
+D a-textio.ads		20210921144550 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210921144550 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20210921144550 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210921144550 eff36322 ada.unchecked_deallocation%s
+D gl.ads		20210928043926 28e5b432 gl%s
+D gl-buffer.ads		20210928043926 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20210928043926 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20210928043926 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20210928043926 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20210928043926 398a5530 gl.geometry%s
+D gl-materials.ads	20210928043926 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20210928043926 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20210928043926 f0134d84 gl.skins%s
+D gl-textures.ads	20210928043926 6f569eb0 gl.textures%s
+D globe_3d.ads		20210928043926 05e1345f globe_3d%s
+D globe_3d-options.ads	20210928043926 97c87feb globe_3d.options%s
+D globe_3d-options.adb	20210928043926 d700c1d1 globe_3d.options%b
+D interfac.ads		20210921144551 5ab55268 interfaces%s
+D i-c.ads		20210921144550 5421119b interfaces.c%s
+D i-cpoint.ads		20210921144551 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20210921144551 e53d8b8e interfaces.c_streams%s
+D system.ads		20210921144551 085b6ffb system%s
+D s-atacco.ads		20210921144551 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20210921144551 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20210921144551 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210921144551 54135002 system.exception_table%s
+D s-fatgen.ads		20210921144551 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20210921144551 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20210921144551 078245e4 system.file_control_block%s
+D s-finmas.ads		20210921144551 7811a767 system.finalization_masters%s
+D s-finroo.ads		20210921144551 4ff27390 system.finalization_root%s
+D s-parame.ads		20210921144551 48ec542b system.parameters%s
+D s-pooglo.ads		20210921144551 ede33ef8 system.pool_global%s
+D s-secsta.ads		20210921144551 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210921144551 a7318a92 system.soft_links%s
+D s-stache.ads		20210921144551 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210921144551 09bd3940 system.standard_library%s
+D s-stoele.ads		20210921144551 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20210921144551 b16154c2 system.storage_pools%s
+D s-stposu.ads		20210921144551 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20210921144551 aedef97e system.stream_attributes%s
+D s-string.ads		20210921144551 8fe54fb7 system.strings%s
+D s-ststop.ads		20210921144551 5fbf1b38 system.strings.stream_ops%s
+D s-traent.ads		20210921144551 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210921144551 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210921144551 1b7d22d2 system.wch_con%s
+D zip.ads		20210928043926 6e4a4be8 zip%s
+D zip_streams.ads	20210928043926 088b1cbe zip_streams%s
+G a e
+G c Z s b [is_debug_mode globe_3d__options 14 12 none]
+X 7 a-cohama.ads
+96R9*Map<10|43R9>
+X 12 a-iteint.ads
+24h9 Forward_Iterator
+X 28 gl-buffer-general.ads
+14R9 base_Object<27|20R9>
+X 36 globe_3d.ads
+77K9*GLOBE_3D 606e13 37|1r9 18r5 38|1r14 12r5
+X 37 globe_3d-options.ads
+1K18*Options 36|77k9 37|18l14 18e21 38|1b23 12l14 12t21
+5b3*show_normals{boolean} 38|6r7
+6b3*show_portals{boolean} 38|7r7
+7b3*filter_portal_depth{boolean} 38|9r7
+11b3*full_check_objects{boolean} 38|8r7
+12b3*strict_geometry{boolean}
+14V12*Is_debug_mode{boolean} 38|3b12 10l7 10t20
+16N3*arrow_inflator
+

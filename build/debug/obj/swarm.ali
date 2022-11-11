@@ -1,0 +1,88 @@
+V "GNAT Lib v2019"
+M P W=b
+A -Og
+A -gnatA
+A -fstack-check=specific
+A -g
+A -gnat2012
+A -gnata
+A -gnateE
+A -gnatE
+A -gnatwa
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnato
+A -gnatVa
+A -mtune=core2
+A -mmacosx-version-min=10.16.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U swarm%b		swarm.adb		5ff99a27 DE NE OO SU
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W callback_procedures%s	callback_procedures.adb	callback_procedures.ali
+W exceptions%s		exceptions.adb		exceptions.ali
+W glut%s		glut.adb		glut.ali
+W graphics_setup%s	graphics_setup.adb	graphics_setup.ali
+
+D ada.ads		20210921144550 76789da1 ada%s
+D a-except.ads		20210921144550 291912d5 ada.exceptions%s
+D a-unccon.ads		20210921144550 0e9b276f ada.unchecked_conversion%s
+D callback_procedures.ads  20210928043926 0bb57c0d callback_procedures%s
+D exceptions.ads	20210928043926 93f8a807 exceptions%s
+D gl.ads		20210928043926 28e5b432 gl%s
+D glut.ads		20210928043926 2e6186fc glut%s
+D graphics_setup.ads	20210928043926 ae3cfa3a graphics_setup%s
+D interfac.ads		20210921144551 5ab55268 interfaces%s
+D i-c.ads		20210921144550 5421119b interfaces.c%s
+D i-cstrin.ads		20210921144551 341d0ddf interfaces.c.strings%s
+D swarm.adb		20210928043926 47e932eb swarm%b
+D system.ads		20210921144551 085b6ffb system%s
+D s-atacco.ads		20210921144551 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20210921144551 54135002 system.exception_table%s
+D s-parame.ads		20210921144551 48ec542b system.parameters%s
+D s-stalib.ads		20210921144551 09bd3940 system.standard_library%s
+D s-traent.ads		20210921144551 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210921144551 34867c83 system.unsigned_types%s
+G a e
+G c Z b b [swarm standard 10 11 none]
+G r c none [swarm standard 10 11 none] [initialize_graphics graphics_setup 7 14 none]
+G r c none [swarm standard 10 11 none] [mainloop glut 331 14 none]
+G r c none [swarm standard 10 11 none] [show_exception exceptions 19 14 none]
+X 4 callback_procedures.ads
+5K9*Callback_Procedures 11e24 12|5w6 5r31
+9U14*Main_Operations 12|13r25
+X 5 exceptions.ads
+17K10*Exceptions 22e15 12|7w6 7r31
+19U14*Show_Exception 12|16s23
+X 7 glut.ads
+22K9*GLUT 887e9 12|8w6 14r4
+331U14*MainLoop 12|14s9
+X 8 graphics_setup.ads
+5K9*Graphics_Setup 10e19 12|6w6 6r31
+7U14*Initialize_Graphics 12|13s4
+X 12 swarm.adb
+10U11*Swarm 10b11 17l5 17t10
+16r9 E{2|63R9} 16r39
+

@@ -1,0 +1,200 @@
+V "GNAT Lib v2019"
+A -Og
+A -gnatA
+A -fstack-check=specific
+A -g
+A -gnat2012
+A -gnata
+A -gnateE
+A -gnatE
+A -gnatwa
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnato
+A -gnatVa
+A -mtune=core2
+A -mmacosx-version-min=10.16.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U cube_p%b		cube_p.adb		c9144a7e DE NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+W gl.materials%s	gl-materials.adb	gl-materials.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W globe_3d.math%s	globe_3d-math.adb	globe_3d-math.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+
+U cube_p%s		cube_p.ads		27c4d89b DE EE NE OO PK
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+
+D ada.ads		20210921144550 76789da1 ada%s
+D a-calend.ads		20210921144549 474d9720 ada.calendar%s
+D a-charac.ads		20210921144549 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210921144549 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20210921144550 61e5e089 ada.containers%s
+D a-cohata.ads		20210921144549 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20210921144549 8205bf40 ada.containers.hashed_maps%s
+D a-conhel.ads		20210921144550 20298884 ada.containers.helpers%s
+D a-except.ads		20210921144550 291912d5 ada.exceptions%s
+D a-finali.ads		20210921144550 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210921144550 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20210921144550 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20210921144550 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20210921144550 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210921144550 119b8fb3 ada.streams%s
+D a-ststio.ads		20210921144550 a75f3183 ada.streams.stream_io%s
+D a-string.ads		20210921144550 90ac6797 ada.strings%s
+D a-strmap.ads		20210921144550 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20210921144550 1656705b ada.strings.unbounded%s
+D a-stunha.ads		20210921144550 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20210921144550 491b781d ada.tags%s
+D a-textio.ads		20210921144550 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210921144550 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20210921144550 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210921144550 eff36322 ada.unchecked_deallocation%s
+D cube_p.ads		20210928043926 2225ecc4 cube_p%s
+D cube_p.adb		20210928043926 26ab72a2 cube_p%b
+D gl.ads		20210928043926 28e5b432 gl%s
+D gl-buffer.ads		20210928043926 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20210928043926 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20210928043926 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20210928043926 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20210928043926 398a5530 gl.geometry%s
+D gl-materials.ads	20210928043926 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20210928043926 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20210928043926 f0134d84 gl.skins%s
+D gl-textures.ads	20210928043926 6f569eb0 gl.textures%s
+D globe_3d.ads		20210928043926 05e1345f globe_3d%s
+D globe_3d-math.ads	20210928043926 a86860bb globe_3d.math%s
+D interfac.ads		20210921144551 5ab55268 interfaces%s
+D i-c.ads		20210921144550 5421119b interfaces.c%s
+D i-cpoint.ads		20210921144551 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20210921144551 e53d8b8e interfaces.c_streams%s
+D system.ads		20210921144551 085b6ffb system%s
+D s-atacco.ads		20210921144551 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20210921144551 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20210921144551 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210921144551 54135002 system.exception_table%s
+D s-fatgen.ads		20210921144551 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20210921144551 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20210921144551 078245e4 system.file_control_block%s
+D s-finmas.ads		20210921144551 7811a767 system.finalization_masters%s
+D s-finroo.ads		20210921144551 4ff27390 system.finalization_root%s
+D s-parame.ads		20210921144551 48ec542b system.parameters%s
+D s-pooglo.ads		20210921144551 ede33ef8 system.pool_global%s
+D s-secsta.ads		20210921144551 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210921144551 a7318a92 system.soft_links%s
+D s-stache.ads		20210921144551 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210921144551 09bd3940 system.standard_library%s
+D s-stoele.ads		20210921144551 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20210921144551 b16154c2 system.storage_pools%s
+D s-stposu.ads		20210921144551 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20210921144551 aedef97e system.stream_attributes%s
+D s-string.ads		20210921144551 8fe54fb7 system.strings%s
+D s-ststop.ads		20210921144551 5fbf1b38 system.strings.stream_ops%s
+D s-traent.ads		20210921144551 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210921144551 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210921144551 1b7d22d2 system.wch_con%s
+D zip.ads		20210928043926 6e4a4be8 zip%s
+D zip_streams.ads	20210928043926 088b1cbe zip_streams%s
+G a e
+G c Z s b [create cube_p 9 14 none]
+G r s face_type [create cube_p 9 14 none] [face_typeIP globe_3d 294 9 none]
+G r s object_3d [create cube_p 9 14 none] [object_3dIP globe_3d 371 9 none]
+G r c none [create cube_p 9 14 none] [set_name globe_3d 232 14 none]
+G r c none [create cube_p 9 14 none] [almost_zero globe_3d__math 83 12 none]
+G r c none [create cube_p 9 14 none] [Omultiply globe_3d__math 7 12 none]
+X 7 a-cohama.ads
+96R9*Map<10|43R9>
+X 12 a-iteint.ads
+24h9 Forward_Iterator
+X 26 cube_p.ads
+7K9*Cube_P 13l5 13e11 27|7b14 100l5 100t11
+9U14*Create 9=22 10>22 11>22 27|64b14 99l8 99t14
+9p22 Object{38|264P9} 27|64b22 70m7 72r7 73r17 78r10 81r13 88r10 92r10 96r10
+10f22 Scale{38|102F12} 27|65b22 77r23 81r41
+11a22 Centre{38|111A12} 27|66b22 72r28
+X 27 cube_p.adb
+15r4 matos_1{34|25R8} 84r26
+21r4 matos_red{34|25R8} 92r42
+26r4 matos_blue{34|25R8} 96r42
+32a4 coord_1{38|121A9} 78r40 81r49
+47a4 idx_2{38|288A9} 87r22
+68r7 face_0{38|294R9} 74m7 75m7 84m7 87m10 88r37
+80i14 p{integer} 81r35 81r58
+86i11 f{integer} 87r29 88r31
+91i11 f{integer} 92r27
+95i11 f{integer} 96r27
+X 28 gl.ads
+66K9*GL 27|5w6 5r10 9r8 9r12 28|4501e7
+126F9*C_Float<41|64F9>
+128F9*Double<41|65F9>
+154A9*Material_Float_vector(126F9)<integer>
+155A9*Double_Vector_3D(128F9)<integer>
+X 30 gl-buffer-general.ads
+14R9 base_Object<29|20R9>
+X 34 gl-materials.ads
+1K12*Materials 27|5w13 9r15 34|265e17
+25R8*Material_type 27|15r23 21r25 26r26 34|31e13
+26a5*ambient{28|154A9} 27|15m41 21m43 26m44
+27a5*diffuse{28|154A9} 27|17m39 23m41 28m42
+28a5*specular{28|154A9} 27|16m39 22m41 27m42
+29a5*emission{28|154A9} 27|18m39 24m41 29m42
+30f5*shininess{28|126F9} 27|19m39 25m41 30m42
+258r3*VRML_Defaults{25R8} 27|75r26
+X 38 globe_3d.ads
+77K9*GLOBE_3D 26|5w6 9r44 10r37 11r44 27|5r24 9r26 9r36 64r44 65r37 66r44
+. 38|606e13
+102F12*Real{28|128F9} 26|10r46 27|65r46
+106A12*Vector_3D{28|155A9}<integer>
+111A12*Point_3D{106A12}<integer> 26|11r53 27|66r53
+121A9*Point_3D_array(111A12)<integer> 27|32r23
+125A9*Natural_Index_array(natural)<integer>
+202a10*Centre{111A12} 27|72m18
+232U14*Set_name 27|73s7
+263R9*Object_3D 27|71r13
+264P9*p_Object_3D(263R9) 26|9r53 27|64r53
+273n23*material_only{270E9} 27|74r22
+287A12*Idx_4_array{125A9}<integer>
+288A9*Idx_4_array_array(287A12)<integer> 27|47r21
+294R9*Face_type 27|68r16 38|331e14
+295a7*P{287A12} 27|87m17
+302e7*skin{270E9} 27|74m14
+313r7*material{34|25R8} 27|75m14 84m14 92m30 96m30
+333A9*Face_array(294R9)<integer>
+372a7*Point{121A9} 27|78m21 81m24
+374a7*face{333A9} 27|88m21 92m21 96m21
+X 39 globe_3d-math.ads
+1K18*Math 27|5w33 9r45 39|92e18
+7V13*"*"{38|106A12} 27|81s47
+83V12*Almost_zero{boolean} 27|77s10
+X 41 i-c.ads
+64F9*C_float<float>
+65F9*double<long_float>
+

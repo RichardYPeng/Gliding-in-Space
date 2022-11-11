@@ -1,0 +1,45 @@
+V "GNAT Lib v2019"
+A -Og
+A -gnatA
+A -fstack-check=specific
+A -g
+A -gnat2012
+A -gnata
+A -gnateE
+A -gnatE
+A -gnatwa
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnato
+A -gnatVa
+A -mtune=core2
+A -mmacosx-version-min=10.16.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U swarm_size%s		swarm_size.ads		f44c4475 DE NE OO PK
+
+D swarm_size.ads	20210929095949 f44c4475 swarm_size%s
+D system.ads		20210921144551 085b6ffb system%s
+G a e
+X 1 swarm_size.ads
+1K9*Swarm_Size 9l5 9e15
+7i4*Target_No_of_Elements{positive}
+

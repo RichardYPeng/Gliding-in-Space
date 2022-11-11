@@ -1,0 +1,89 @@
+V "GNAT Lib v2019"
+A -Og
+A -gnatA
+A -fstack-check=specific
+A -g
+A -gnat2012
+A -gnata
+A -gnateE
+A -gnatE
+A -gnatwa
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnato
+A -gnatVa
+A -mtune=core2
+A -mmacosx-version-min=10.16.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U screenshots%b		screenshots.adb		339eba20 DE NE OO PK
+W gl%s			gl.adb			gl.ali
+W gl.io%s		gl-io.adb		gl-io.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U screenshots%s		screenshots.ads		fb6ddf6f DE EE NE OO PK
+
+D ada.ads		20210921144550 76789da1 ada%s
+D a-except.ads		20210921144550 291912d5 ada.exceptions%s
+D a-ioexce.ads		20210921144550 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210921144550 119b8fb3 ada.streams%s
+D a-ststio.ads		20210921144550 a75f3183 ada.streams.stream_io%s
+D a-tags.ads		20210921144550 491b781d ada.tags%s
+D a-unccon.ads		20210921144550 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210921144550 eff36322 ada.unchecked_deallocation%s
+D gl.ads		20210928043926 28e5b432 gl%s
+D gl-io.ads		20210928043926 baba5f4e gl.io%s
+D interfac.ads		20210921144551 5ab55268 interfaces%s
+D i-c.ads		20210921144550 5421119b interfaces.c%s
+D i-cstrea.ads		20210921144551 e53d8b8e interfaces.c_streams%s
+D screenshots.ads	20210928043926 fb6ddf6f screenshots%s
+D screenshots.adb	20210928043926 72493a01 screenshots%b
+D system.ads		20210921144551 085b6ffb system%s
+D s-atacco.ads		20210921144551 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20210921144551 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210921144551 54135002 system.exception_table%s
+D s-ficobl.ads		20210921144551 078245e4 system.file_control_block%s
+D s-imgint.ads		20210921144551 02dbe0c2 system.img_int%s
+D s-parame.ads		20210921144551 48ec542b system.parameters%s
+D s-secsta.ads		20210921144551 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210921144551 a7318a92 system.soft_links%s
+D s-stache.ads		20210921144551 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210921144551 09bd3940 system.standard_library%s
+D s-stoele.ads		20210921144551 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210921144551 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210921144551 34867c83 system.unsigned_types%s
+G a e
+G c Z s b [take_shot screenshots 7 14 none]
+G r c none [take_shot screenshots 7 14 none] [screenshot gl__io 127 13 none]
+X 9 gl.ads
+66K9*GL 4501e7 15|5r6 5r17
+X 10 gl-io.ads
+45K12*IO 163e10 15|5w9 5r20
+127U13*Screenshot 15|18s7
+X 14 screenshots.ads
+5K9*Screenshots 9l5 9e16 15|7b14 22l5 22t16
+7U14*Take_Shot 15|15b14 20l8 20t17
+X 15 screenshots.adb
+9i4 Screen_Shot_Count{positive} 18r34 19m7 19r28
+

@@ -1,0 +1,186 @@
+V "GNAT Lib v2019"
+A -Og
+A -gnatA
+A -fstack-check=specific
+A -g
+A -gnat2012
+A -gnata
+A -gnateE
+A -gnatE
+A -gnatwa
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnato
+A -gnatVa
+A -mtune=core2
+A -mmacosx-version-min=10.16.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U icosahedron_p%b	icosahedron_p.adb	ace255c6 DE NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+
+U icosahedron_p%s	icosahedron_p.ads	5c716d93 DE EE NE OO PK
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+
+D ada.ads		20210921144550 76789da1 ada%s
+D a-calend.ads		20210921144549 474d9720 ada.calendar%s
+D a-charac.ads		20210921144549 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210921144549 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20210921144550 61e5e089 ada.containers%s
+D a-cohata.ads		20210921144549 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20210921144549 8205bf40 ada.containers.hashed_maps%s
+D a-conhel.ads		20210921144550 20298884 ada.containers.helpers%s
+D a-except.ads		20210921144550 291912d5 ada.exceptions%s
+D a-finali.ads		20210921144550 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210921144550 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20210921144550 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20210921144550 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20210921144550 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210921144550 119b8fb3 ada.streams%s
+D a-ststio.ads		20210921144550 a75f3183 ada.streams.stream_io%s
+D a-string.ads		20210921144550 90ac6797 ada.strings%s
+D a-strmap.ads		20210921144550 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20210921144550 1656705b ada.strings.unbounded%s
+D a-stunha.ads		20210921144550 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20210921144550 491b781d ada.tags%s
+D a-textio.ads		20210921144550 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210921144550 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20210921144550 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210921144550 eff36322 ada.unchecked_deallocation%s
+D gl.ads		20210928043926 28e5b432 gl%s
+D gl-buffer.ads		20210928043926 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20210928043926 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20210928043926 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20210928043926 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20210928043926 398a5530 gl.geometry%s
+D gl-materials.ads	20210928043926 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20210928043926 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20210928043926 f0134d84 gl.skins%s
+D gl-textures.ads	20210928043926 6f569eb0 gl.textures%s
+D globe_3d.ads		20210928043926 05e1345f globe_3d%s
+D icosahedron_p.ads	20210928043926 599059cc icosahedron_p%s
+D icosahedron_p.adb	20210928043926 dd97b838 icosahedron_p%b
+D interfac.ads		20210921144551 5ab55268 interfaces%s
+D i-c.ads		20210921144550 5421119b interfaces.c%s
+D i-cpoint.ads		20210921144551 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20210921144551 e53d8b8e interfaces.c_streams%s
+D system.ads		20210921144551 085b6ffb system%s
+D s-atacco.ads		20210921144551 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20210921144551 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20210921144551 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210921144551 54135002 system.exception_table%s
+D s-fatgen.ads		20210921144551 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20210921144551 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20210921144551 078245e4 system.file_control_block%s
+D s-finmas.ads		20210921144551 7811a767 system.finalization_masters%s
+D s-finroo.ads		20210921144551 4ff27390 system.finalization_root%s
+D s-parame.ads		20210921144551 48ec542b system.parameters%s
+D s-pooglo.ads		20210921144551 ede33ef8 system.pool_global%s
+D s-secsta.ads		20210921144551 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210921144551 a7318a92 system.soft_links%s
+D s-stache.ads		20210921144551 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210921144551 09bd3940 system.standard_library%s
+D s-stoele.ads		20210921144551 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20210921144551 b16154c2 system.storage_pools%s
+D s-stposu.ads		20210921144551 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20210921144551 aedef97e system.stream_attributes%s
+D s-string.ads		20210921144551 8fe54fb7 system.strings%s
+D s-ststop.ads		20210921144551 5fbf1b38 system.strings.stream_ops%s
+D s-traent.ads		20210921144551 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210921144551 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210921144551 1b7d22d2 system.wch_con%s
+D zip.ads		20210928043926 6e4a4be8 zip%s
+D zip_streams.ads	20210928043926 088b1cbe zip_streams%s
+G a e
+G c Z s b [create icosahedron_p 5 13 none]
+G r s face_type [create icosahedron_p 5 13 none] [face_typeIP globe_3d 294 9 none]
+G r s object_3d [create icosahedron_p 5 13 none] [object_3dIP globe_3d 371 9 none]
+G r c none [create icosahedron_p 5 13 none] [set_name globe_3d 232 14 none]
+X 7 a-cohama.ads
+96R9*Map<10|43R9>
+X 12 a-iteint.ads
+24h9 Forward_Iterator
+X 26 gl.ads
+66K9*GL 4501e7 38|4w6 17r9 58r15
+128F9*Double<40|65F9>
+155A9*Double_Vector_3D(128F9)<integer>
+157R9*RGB_Color 157e77 38|58r18
+X 28 gl-buffer-general.ads
+14R9 base_Object<27|20R9>
+X 36 globe_3d.ads
+77K9*GLOBE_3D 606e13 37|1w6 6r21 7r21 8r21 9r21 38|9r21 10r21 11r21 12r21
+. 17r13
+102F12*Real{26|128F9} 37|7r30 9r30 38|10r30 12r30 22r69
+106A12*Vector_3D{26|155A9}<integer>
+111A12*Point_3D{106A12}<integer> 37|8r30 38|11r30 22r50 71r16
+121A9*Point_3D_array(111A12)<integer>
+125A9*Natural_Index_array(natural)<integer>
+202a10*Centre{111A12} 38|118m12
+232U14*Set_name 38|119s5
+263R9*Object_3D 38|65r21 67r21
+264P9*p_Object_3D(263R9) 37|6r30 38|9r30
+271n23*colour_only{270E9} 38|61r23
+287A12*Idx_4_array{125A9}<integer>
+294R9*Face_type 331e14 38|59r15 105r17
+295a7*P{287A12} 38|98m14 108r25 109r20 110m19 110r31
+302e7*skin{270E9} 38|61m12
+304f7*alpha{26|128F9} 38|62m12
+311r7*colour{26|157R9} 38|97m14
+333A9*Face_array(294R9)<integer>
+372a7*Point{121A9} 38|74m20 77m18
+374a7*face{333A9} 38|99m14 105m42 107r25
+X 37 icosahedron_p.ads
+3K9*Icosahedron_P 13l5 13e18 38|6b14 122l5 122t18
+5U13*Create 6=5 7>5 8>5 9>5 10>5 38|8b13 120l7 120t13
+6p5 Object{36|264P9} 38|9b5 65m7 67m7 74r13 77r11 99r7 105r35 107r18 118r5
+. 119r15
+7f5 Scale{36|102F12} 38|10b5 74r57 77r35
+8a5 Centre{36|111A12} 38|11b5 118r22
+9f5 alpha{36|102F12} 38|12b5 62r23
+10b5 polyball{boolean} 38|13b5 64r8 72r12 101r8
+X 38 icosahedron_p.adb
+19N5 nb_points 22r39 65r32 65r42 65r53 67r46 70r19 73r25 74r35 102r21 110r42
+20N5 nb_faces 36r38 65r63 67r70 82r19 103r23 105r50
+22a5 obj_points(36|102F12) 74r66 74r86 77r43
+36a5 obj_faces(positive) 98r20 98r38 98r56
+58r5 colour{26|157R9} 84m19 85m19 86m19 87m19 88m19 89m19 90m19 91m19 92m19
+. 93m19 97r25
+59r5 face_0{36|294R9} 61m5 62m5 97m7 98m7 99r26
+70i9 i{integer} 74r28 74r78 77r25 77r55
+71i11 d{integer} 74r51 74r81 74r101 77r29 77r58
+73i15 j{integer} 74r47 74r98
+82i9 i{integer} 83r12 98r31 98r49 98r67 99r20
+102i11 i{integer} 105r48 110r40
+103i13 j{integer} 105r61 107r31
+105r13 f{36|294R9} 107r13 108r23 109r18 110r17 110r29
+108i17 pt{integer} 109r23 110r22 110r34
+X 40 i-c.ads
+65F9*double<long_float>
+

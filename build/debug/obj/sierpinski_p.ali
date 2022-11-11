@@ -1,0 +1,295 @@
+V "GNAT Lib v2019"
+A -Og
+A -gnatA
+A -fstack-check=specific
+A -g
+A -gnat2012
+A -gnata
+A -gnateE
+A -gnatE
+A -gnatwa
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnato
+A -gnatVa
+A -mtune=core2
+A -mmacosx-version-min=10.16.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U sierpinski_p%b	sierpinski_p.adb	c5705408 DE NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W globe_3d.math%s	globe_3d-math.adb	globe_3d-math.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system.exp_int%s	s-expint.adb		s-expint.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+
+U sierpinski_p%s	sierpinski_p.ads	5f9281c8 DE EE NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+
+D ada.ads		20210921144550 76789da1 ada%s
+D a-calend.ads		20210921144549 474d9720 ada.calendar%s
+D a-charac.ads		20210921144549 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210921144549 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20210921144550 61e5e089 ada.containers%s
+D a-cohata.ads		20210921144549 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20210921144549 8205bf40 ada.containers.hashed_maps%s
+D a-conhel.ads		20210921144550 20298884 ada.containers.helpers%s
+D a-except.ads		20210921144550 291912d5 ada.exceptions%s
+D a-finali.ads		20210921144550 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210921144550 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20210921144550 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20210921144550 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20210921144550 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210921144550 119b8fb3 ada.streams%s
+D a-ststio.ads		20210921144550 a75f3183 ada.streams.stream_io%s
+D a-string.ads		20210921144550 90ac6797 ada.strings%s
+D a-strmap.ads		20210921144550 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20210921144550 1656705b ada.strings.unbounded%s
+D a-stunha.ads		20210921144550 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20210921144550 491b781d ada.tags%s
+D a-textio.ads		20210921144550 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210921144550 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20210921144550 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210921144550 eff36322 ada.unchecked_deallocation%s
+D gl.ads		20210928043926 28e5b432 gl%s
+D gl-buffer.ads		20210928043926 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20210928043926 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20210928043926 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20210928043926 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20210928043926 398a5530 gl.geometry%s
+D gl-materials.ads	20210928043926 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20210928043926 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20210928043926 f0134d84 gl.skins%s
+D gl-textures.ads	20210928043926 6f569eb0 gl.textures%s
+D globe_3d.ads		20210928043926 05e1345f globe_3d%s
+D globe_3d-math.ads	20210928043926 a86860bb globe_3d.math%s
+D interfac.ads		20210921144551 5ab55268 interfaces%s
+D i-c.ads		20210921144550 5421119b interfaces.c%s
+D i-cpoint.ads		20210921144551 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20210921144551 e53d8b8e interfaces.c_streams%s
+D sierpinski_p.ads	20210928043926 5a73b597 sierpinski_p%s
+D sierpinski_p.adb	20210928043926 1f8e3516 sierpinski_p%b
+D system.ads		20210921144551 085b6ffb system%s
+D s-atacco.ads		20210921144551 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20210921144551 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20210921144551 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210921144551 54135002 system.exception_table%s
+D s-expint.ads		20210921144551 192336fc system.exp_int%s
+D s-fatgen.ads		20210921144551 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20210921144551 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20210921144551 078245e4 system.file_control_block%s
+D s-finmas.ads		20210921144551 7811a767 system.finalization_masters%s
+D s-finroo.ads		20210921144551 4ff27390 system.finalization_root%s
+D s-imgint.ads		20210921144551 02dbe0c2 system.img_int%s
+D s-parame.ads		20210921144551 48ec542b system.parameters%s
+D s-pooglo.ads		20210921144551 ede33ef8 system.pool_global%s
+D s-secsta.ads		20210921144551 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210921144551 a7318a92 system.soft_links%s
+D s-stache.ads		20210921144551 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210921144551 09bd3940 system.standard_library%s
+D s-stoele.ads		20210921144551 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20210921144551 b16154c2 system.storage_pools%s
+D s-stposu.ads		20210921144551 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20210921144551 aedef97e system.stream_attributes%s
+D s-string.ads		20210921144551 8fe54fb7 system.strings%s
+D s-ststop.ads		20210921144551 5fbf1b38 system.strings.stream_ops%s
+D s-traent.ads		20210921144551 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210921144551 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210921144551 1b7d22d2 system.wch_con%s
+D zip.ads		20210928043926 6e4a4be8 zip%s
+D zip_streams.ads	20210928043926 088b1cbe zip_streams%s
+G a e
+G c Z s b [create sierpinski_p 8 13 none]
+G c Z s s [Tcubic_face_textureBIP sierpinski_p 6 3 none]
+G r s face_array [create sierpinski_p 8 13 none] [face_arrayIP globe_3d 333 9 none]
+G r s face_type [create sierpinski_p 8 13 none] [face_typeIP globe_3d 294 9 none]
+G r c none [create sierpinski_p 8 13 none] [Omultiply globe_3d__math 7 12 none]
+G r c none [create sierpinski_p 8 13 none] [Osubtract globe_3d__math 19 12 none]
+G r c none [create sierpinski_p 8 13 none] [norm2 globe_3d__math 31 12 none]
+G r c none [create sierpinski_p 8 13 none] [almost_zero globe_3d__math 83 12 none]
+G r s object_3d [create sierpinski_p 8 13 none] [object_3dIP globe_3d 371 9 none]
+G r c none [create sierpinski_p 8 13 none] [set_name globe_3d 232 14 none]
+G r c none [create sierpinski_p 8 13 none] [dispose globe_3d 515 14 none]
+G r c none [create sierpinski_p 8 13 none] [dispose globe_3d 518 14 none]
+X 7 a-cohama.ads
+96R9*Map<10|43R9>
+X 12 a-iteint.ads
+24h9 Forward_Iterator
+X 26 gl.ads
+66K9*GL 4501e7 43|4w6 20r9
+128F9*Double<39|65F9>
+155A9*Double_Vector_3D(128F9)<integer>
+X 28 gl-buffer-general.ads
+14R9 base_Object<27|20R9>
+X 36 globe_3d.ads
+77K9*GLOBE_3D 606e13 42|1w6 6r58 9r28 10r28 11r28 12r61 43|4r10 12r28 13r28
+. 14r28 15r61 20r13 20r23 111r13
+99I9*Image_ID<integer> 42|6r67
+100i4*null_image{99I9} 42|12r70 43|15r70
+102F12*Real{26|128F9} 42|10r37 43|13r37 57r24 57r40 58r24 58r38 64r23 64r46
+. 64r69 76r26 76r40 149r25 149r53 150r25 150r53 151r25 151r53 152r25 152r53
+106A12*Vector_3D{26|155A9}<integer>
+111A12*Point_3D{106A12}<integer> 42|11r37 43|14r37 62r45 110r29
+121A9*Point_3D_array(111A12)<integer> 43|68r20
+122P9*p_Point_3D_array(121A9) 43|67r15
+125A9*Natural_Index_array(natural)<integer> 43|111r22
+202a10*Centre{111A12} 43|239m12
+232U14*Set_name 43|240s5
+263R9*Object_3D 43|235r19
+264P9*p_Object_3D(263R9) 42|9r37 43|12r37
+273n23*material_only{270E9} 43|226r24
+291A9*Map_idx_pair_array(290R9)<integer>
+292A12*Map_idx_pair_4_array{291A9}<integer>
+294R9*Face_type 331e14 43|71r19
+295a7*P{287A12} 43|146m18
+302e7*skin{270E9} 43|226m16
+316i7*texture{99I9} 43|172m26 180m26
+322b7*whole_texture{boolean} 43|227m16
+325i7*repeat_U{positive} 43|228m16
+326i7*repeat_V{positive} 43|229m16
+329a7*texture_edge_map{292A12} 43|148m20
+333A9*Face_array(294R9)<integer> 43|70r20
+334P9*p_Face_array(333A9) 43|69r15
+372a7*Point{121A9} 43|236m12
+374a7*face{333A9} 43|237m12
+515U14*Dispose[25|20] 43|244s5
+518U14*Dispose[25|20] 43|245s5
+X 37 globe_3d-math.ads
+1K18*Math 92e18 43|4w19 20r32
+7V13*"*"{36|106A12} 43|64s20
+19V13*"-"{36|106A12} 43|125s44
+31V12*Norm2{36|102F12} 43|125s30
+83V12*Almost_zero{boolean} 43|125s17
+X 39 i-c.ads
+65F9*double<long_float>
+X 42 sierpinski_p.ads
+3K9*Sierpinski_P 17l5 17e17 43|9b14 248l5 248t17
+5I8*Cubic_Face_count<integer> 6r37 43|160r19
+6A8*Cubic_Face_texture(36|99I9)<5I8> 12r28 43|15r28
+8U13*Create 9=5 10>5 11>5 12>5 13>5 14>5 43|11b13 246l7 246t13
+9p5 Object{36|264P9} 43|12b5 235m5 236r5 237r5 239r5 240r15
+10f5 Scale{36|102F12} 43|13b5 57r32
+11a5 Centre{36|111A12} 43|14b5 239r22
+12a5 texture{6A8} 43|15b5 172r37 180r37
+13b5 tiled{boolean} 43|16b5 147r14 227r33
+14i5 fractal_level{natural} 43|17b5 22r35 68r50 70r44 213r20 242r24
+X 43 sierpinski_p.adb
+22i5 side{integer} 24r56 25r58 26r69 57r46 58r44 76r46
+24I13 Extended_side_range{integer} 25r27 26r38 28r21 29r20 30r20 60r41 80r23
+. 81r22 82r22 88r14 89r14 90r14
+25I13 Side_range{24I13} 164r14 165r16
+26I13 Comparison_side_range{24I13} 166r18
+28a5 filled(boolean) 39m9 168r14 168r37 170r16
+34U15 Fill 34b15 34>21 34>25 34>29 34>43 48s19 55l9 55t13 213s5
+34i21 x0{natural} 39r17 48r25
+34i25 y0{natural} 39r21 48r35
+34i29 z0{natural} 39r25 48r45
+34i43 level{natural} 38r10 41r15
+35i7 l1{natural} 41m9 42r19 48r55
+36i7 o{natural} 42m9 48r32 48r42 48r52
+43i13 x{integer} 45r21 47r26 48r30
+44i15 y{integer} 45r29 47r43 48r40
+46i19 z{integer} 47r34 47r51 48r50
+57f5 scale_2{36|102F12} 64r12
+58f5 offset{36|102F12} 64r38 64r61 64r84
+60A10 Ipoint_3D(24I13)<integer> 62r26 106r28 159r27 159r45 193r20 193r38
+. 198r21 198r39 203r21 203r39
+62U15 Trans 62b15 62>22 62<37 65l9 65t14 114s7 115s7 116s7 117s7
+62a22 i{60A10} 64r29 64r52 64r75
+62a37 p{36|111A12} 64m7
+67p5 point{36|122P9} 125r46 134r11 236r21 244m14 244r14
+69p5 face{36|334P9} 155r7 237r20 245m14 245r14
+71r5 face_proto{36|294R9} 146m7 148m9 155r20 172m15 180m15 226m5 227m5 228m5
+. 229m5
+73i5 po{natural} 133m11 133r17 134r18 135r23 140r78 235r30 236r33
+73i9 fa{natural} 154m7 154r13 155r13 235r34 237r31
+75A10 Ipoint_2D(natural)<integer> 107r28
+76f5 tex_scale{36|102F12} 149r13 149r41 150r13 150r41 151r13 151r41 152r13
+. 152r41
+79A10 Index_stack(natural)<integer> 83r6 93r16 120r19
+80a5 touching(79A10) 94r12 96r15 97m11 121r18
+86U15 Register 86b15 86>25 86>28 86>31 86>44 102l9 102t17 140s17
+86i25 i{integer} 88r10 94r22 96r25 97r21
+86i28 j{integer} 89r10 94r25 96r28 97r24
+86i31 k{integer} 90r10 94r28 96r31 97r27
+86i44 idx{positive} 94r37 97r37
+93i11 s{integer} 94r32 96r35 97r31
+104U15 Do_Face 104b15 105>7 106>7 106>12 106>17 106>22 107>7 107>12 107>17
+. 107>22 156l9 156t16 173s15 181s15
+105a7 cube_id{60A10} 121r28 121r41 121r54 140r27 140r44 140r61
+106a7 iP1{60A10} 114r14
+106a12 iP2{60A10} 115r14
+106a17 iP3{60A10} 116r14
+106a22 iP4{60A10} 117r14
+107a7 it1{75A10} 149r31 149r59
+107a12 it2{75A10} 150r31 150r59
+107a17 it3{75A10} 151r31 151r59
+107a22 it4{75A10} 152r31 152r59
+110a7 P(36|111A12) 114m19 114r19 115m19 115r19 116m19 116r19 117m19 117r19
+. 118r17 125r37 134r25
+111a7 vtx{36|125A9} 119m9 127m13 135m11 146r23
+112i7 idx{natural} 121m11 122r14 125r53 127r25 131r12
+118i11 pt{integer} 119r14 125r40 127r18 134r28 135r16
+120i13 op{integer} 121r68
+137i15 i{integer} 140r41
+138i17 j{integer} 140r58
+139i19 k{integer} 140r75
+159V19 Pm{60A10} 159>23 174s17 175s17 175s33 175s53 175s77 182s17 183s17
+. 183s37 183s61 183s81
+159a23 p{60A10}
+160i5 front{42|5I8} 172r46
+160i12 back{42|5I8} 180r46
+161u13 Pave 162b13 191l7 191t11 208r27 209r27 210r27
+164i9 i{25I13} 168r22 168r45 170r24 174r22 175r22 175r38 175r58 175r82 176r18
+. 176r26 176r38 176r54 182r22 183r22 183r42 183r66 183r86 184r18 184r30 184r46
+. 184r58
+165i11 j{25I13} 168r25 168r48 170r27 174r25 175r25 175r41 175r65 175r89 176r21
+. 176r29 176r45 176r61 182r25 183r29 183r49 183r69 183r89 184r25 184r37 184r49
+. 184r61
+166i13 k{26I13} 168r28 168r51 170r30 174r28 175r28 175r48 175r72 175r92 182r28
+. 183r32 183r56 183r76 183r92
+193V12 Id{60A10} 193b12 193>16 196l7 196t9 208r33
+193a16 p{60A10} 195r12
+198V12 Pm1{60A10} 198b12 198>17 201l7 201t10 209r33
+198a17 p{60A10} 200r13 200r20 200r27
+203V12 Pm2{60A10} 203b12 203>17 206l7 206t10 210r33
+203a17 p{60A10} 205r13 205r20 205r27
+208U13 Pave_z[161] 162b13 233s5
+209U13 Pave_y[161] 162b13 232s5
+210U13 Pave_x[161] 162b13 231s5
+

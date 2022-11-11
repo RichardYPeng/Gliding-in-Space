@@ -1,0 +1,415 @@
+V "GNAT Lib v2019"
+A -Og
+A -gnatA
+A -fstack-check=specific
+A -g
+A -gnat2012
+A -gnata
+A -gnateE
+A -gnatE
+A -gnatwa
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnato
+A -gnatVa
+A -mtune=core2
+A -mmacosx-version-min=10.16.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_ALIASING
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U vehicle_message_type%s  vehicle_message_type.ads  91f2e074 DE EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+W ada.containers.ordered_sets%s
+Z ada.containers.red_black_trees%s  a-crbltr.ads  a-crbltr.ali
+Z ada.containers.red_black_trees.generic_keys%s
+Z ada.containers.red_black_trees.generic_operations%s
+Z ada.containers.red_black_trees.generic_set_operations%s
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+W swarm_structures_base%s  swarm_structures_base.ads  swarm_structures_base.ali
+Z system%s		system.ads		system.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W vectors_3d%s		vectors_3d.adb		vectors_3d.ali
+
+D ada.ads		20210921144550 76789da1 ada%s
+D a-calend.ads		20210921144549 474d9720 ada.calendar%s
+D a-charac.ads		20210921144549 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210921144549 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20210921144550 61e5e089 ada.containers%s
+D a-cohata.ads		20210921144549 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20210921144549 8205bf40 ada.containers.hashed_maps%s
+D a-conhel.ads		20210921144550 20298884 ada.containers.helpers%s
+D a-conhel.adb		20210921144548 9cc5095b ada.containers.helpers%b
+D a-coorse.ads		20210921144550 6a149526 ada.containers.ordered_sets%s
+D a-coorse.adb		20210921144548 d1973bbb ada.containers.ordered_sets%b
+D a-crbltr.ads		20210921144550 c3e90a86 ada.containers.red_black_trees%s
+D a-crbtgk.ads		20210921144550 ab25d217 ada.containers.red_black_trees.generic_keys%s
+D a-crbtgk.adb		20210921144548 cffbc19e ada.containers.red_black_trees.generic_keys%b
+D a-crbtgo.ads		20210921144550 e494c304 ada.containers.red_black_trees.generic_operations%s
+D a-crbtgo.adb		20210921144548 a4b4aead ada.containers.red_black_trees.generic_operations%b
+D a-rbtgso.ads		20210921144550 2f314542 ada.containers.red_black_trees.generic_set_operations%s
+D a-rbtgso.adb		20210921144548 b6305a94 ada.containers.red_black_trees.generic_set_operations%b
+D a-except.ads		20210921144550 291912d5 ada.exceptions%s
+D a-finali.ads		20210921144550 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210921144550 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20210921144550 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20210921144550 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20210921144550 55716239 ada.numerics.generic_elementary_functions%s
+D a-reatim.ads		20210921144550 0240fc73 ada.real_time%s
+D a-stream.ads		20210921144550 119b8fb3 ada.streams%s
+D a-ststio.ads		20210921144550 a75f3183 ada.streams.stream_io%s
+D a-string.ads		20210921144550 90ac6797 ada.strings%s
+D a-strmap.ads		20210921144550 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20210921144550 1656705b ada.strings.unbounded%s
+D a-stunha.ads		20210921144550 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20210921144550 491b781d ada.tags%s
+D a-textio.ads		20210921144550 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210921144550 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20210921144550 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210921144550 eff36322 ada.unchecked_deallocation%s
+D generic_protected.ads	20210928043926 3536765d generic_protected%s
+D gl.ads		20210928043926 28e5b432 gl%s
+D gl-buffer.ads		20210928043926 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20210928043926 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20210928043926 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20210928043926 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20210928043926 398a5530 gl.geometry%s
+D gl-materials.ads	20210928043926 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20210928043926 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20210928043926 f0134d84 gl.skins%s
+D gl-textures.ads	20210928043926 6f569eb0 gl.textures%s
+D globe_3d.ads		20210928043926 05e1345f globe_3d%s
+D graphics_structures.ads  20210928043926 168856d0 graphics_structures%s
+D interfac.ads		20210921144551 5ab55268 interfaces%s
+D i-c.ads		20210921144550 5421119b interfaces.c%s
+D i-cpoint.ads		20210921144551 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20210921144551 e53d8b8e interfaces.c_streams%s
+D matrices.ads		20210928043926 85f7982e matrices%s
+D quaternions.ads	20210928043926 9d9d58c2 quaternions%s
+D real_type.ads		20210928043926 cdd2e5cc real_type%s
+D rotations.ads		20210928043926 3eeded66 rotations%s
+D swarm_structures_base.ads  20210928043926 aac90073 swarm_structures_base%s
+D system.ads		20210921144551 085b6ffb system%s
+D s-atacco.ads		20210921144551 4c36d12f system.address_to_access_conversions%s
+D s-assert.ads		20210921144551 cd8d2c94 system.assertions%s
+D s-atocou.ads		20210921144551 b45c2d8d system.atomic_counters%s
+D s-atocou.adb		20210921144549 b65612c0 system.atomic_counters%b
+D s-crtl.ads		20210921144551 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210921144551 54135002 system.exception_table%s
+D s-fatgen.ads		20210921144551 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20210921144551 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20210921144551 078245e4 system.file_control_block%s
+D s-finmas.ads		20210921144551 7811a767 system.finalization_masters%s
+D s-finroo.ads		20210921144551 4ff27390 system.finalization_root%s
+D s-memory.ads		20210921144551 597d6634 system.memory%s
+D s-multip.ads		20210921144551 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20210921144551 e40aaf2d system.os_constants%s
+D s-osinte.ads		20210921144551 01b3ad47 system.os_interface%s
+D s-parame.ads		20210921144551 48ec542b system.parameters%s
+D s-pooglo.ads		20210921144551 ede33ef8 system.pool_global%s
+D s-secsta.ads		20210921144551 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210921144551 a7318a92 system.soft_links%s
+D s-stache.ads		20210921144551 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210921144551 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210921144551 09bd3940 system.standard_library%s
+D s-stalib.adb		20210921144549 f2fe2716 system.standard_library%b
+D s-stoele.ads		20210921144551 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210921144549 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210921144551 b16154c2 system.storage_pools%s
+D s-stposu.ads		20210921144551 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20210921144551 aedef97e system.stream_attributes%s
+D s-string.ads		20210921144551 8fe54fb7 system.strings%s
+D s-ststop.ads		20210921144551 5fbf1b38 system.strings.stream_ops%s
+D s-tasinf.ads		20210921144551 801abd01 system.task_info%s
+D s-taspri.ads		20210921144551 f40ac08d system.task_primitives%s
+D s-taprop.ads		20210921144551 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20210921144551 b9d612e2 system.tasking%s
+D s-taprob.ads		20210921144551 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210921144551 60ad3dae system.tasking.protected_objects.entries%s
+D s-traent.ads		20210921144551 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210921144551 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210921144551 1b7d22d2 system.wch_con%s
+D vectors_2d_n.ads	20210928043926 d15dcc29 vectors_2d_n%s
+D vectors_3d.ads	20210928043926 d93f5008 vectors_3d%s
+D vectors_xd.ads	20210928043926 29c3a87f vectors_xd%s
+D vectors_xd_i.ads	20210928043926 dd7f011a vectors_xd_i%s
+D vehicle_message_type.ads  20210929100213 ebb539d3 vehicle_message_type%s
+D zip.ads		20210928043926 6e4a4be8 zip%s
+D zip_streams.ads	20210928043926 088b1cbe zip_streams%s
+G a e
+G c Z s s [equivalent_elements vehicle_message_type__vehicle_sets 52 13 15_4]
+G c Z s s [has_element vehicle_message_type__vehicle_sets 64 13 15_4]
+G c Z s s [Oeq vehicle_message_type__vehicle_sets 73 13 15_4]
+G c Z s s [equivalent_sets vehicle_message_type__vehicle_sets 75 13 15_4]
+G c Z s s [to_set vehicle_message_type__vehicle_sets 77 13 15_4]
+G c Z s s [length vehicle_message_type__vehicle_sets 79 13 15_4]
+G c Z s s [is_empty vehicle_message_type__vehicle_sets 81 13 15_4]
+G c Z s s [clear vehicle_message_type__vehicle_sets 83 14 15_4]
+G c Z s s [element vehicle_message_type__vehicle_sets 85 13 15_4]
+G c Z s s [replace_element vehicle_message_type__vehicle_sets 87 14 15_4]
+G c Z s s [query_element vehicle_message_type__vehicle_sets 92 14 15_4]
+G c Z s s [constant_reference vehicle_message_type__vehicle_sets 102 13 15_4]
+G c Z s s [assign vehicle_message_type__vehicle_sets 107 14 15_4]
+G c Z s s [copy vehicle_message_type__vehicle_sets 109 13 15_4]
+G c Z s s [move vehicle_message_type__vehicle_sets 111 14 15_4]
+G c Z s s [insert vehicle_message_type__vehicle_sets 113 14 15_4]
+G c Z s s [insert vehicle_message_type__vehicle_sets 119 14 15_4]
+G c Z s s [include vehicle_message_type__vehicle_sets 123 14 15_4]
+G c Z s s [replace vehicle_message_type__vehicle_sets 127 14 15_4]
+G c Z s s [exclude vehicle_message_type__vehicle_sets 131 14 15_4]
+G c Z s s [delete vehicle_message_type__vehicle_sets 135 14 15_4]
+G c Z s s [delete vehicle_message_type__vehicle_sets 139 14 15_4]
+G c Z s s [delete_first vehicle_message_type__vehicle_sets 143 14 15_4]
+G c Z s s [delete_last vehicle_message_type__vehicle_sets 145 14 15_4]
+G c Z s s [union vehicle_message_type__vehicle_sets 147 14 15_4]
+G c Z s s [union vehicle_message_type__vehicle_sets 149 13 15_4]
+G c Z s s [intersection vehicle_message_type__vehicle_sets 153 14 15_4]
+G c Z s s [intersection vehicle_message_type__vehicle_sets 155 13 15_4]
+G c Z s s [difference vehicle_message_type__vehicle_sets 159 14 15_4]
+G c Z s s [difference vehicle_message_type__vehicle_sets 161 13 15_4]
+G c Z s s [symmetric_difference vehicle_message_type__vehicle_sets 165 14 15_4]
+G c Z s s [symmetric_difference vehicle_message_type__vehicle_sets 167 13 15_4]
+G c Z s s [overlap vehicle_message_type__vehicle_sets 171 13 15_4]
+G c Z s s [is_subset vehicle_message_type__vehicle_sets 173 13 15_4]
+G c Z s s [first vehicle_message_type__vehicle_sets 175 13 15_4]
+G c Z s s [first_element vehicle_message_type__vehicle_sets 177 13 15_4]
+G c Z s s [last vehicle_message_type__vehicle_sets 179 13 15_4]
+G c Z s s [last_element vehicle_message_type__vehicle_sets 181 13 15_4]
+G c Z s s [next vehicle_message_type__vehicle_sets 183 13 15_4]
+G c Z s s [next vehicle_message_type__vehicle_sets 185 14 15_4]
+G c Z s s [previous vehicle_message_type__vehicle_sets 187 13 15_4]
+G c Z s s [previous vehicle_message_type__vehicle_sets 189 14 15_4]
+G c Z s s [find vehicle_message_type__vehicle_sets 191 13 15_4]
+G c Z s s [floor vehicle_message_type__vehicle_sets 193 13 15_4]
+G c Z s s [ceiling vehicle_message_type__vehicle_sets 195 13 15_4]
+G c Z s s [contains vehicle_message_type__vehicle_sets 197 13 15_4]
+G c Z s s [Olt vehicle_message_type__vehicle_sets 199 13 15_4]
+G c Z s s [Ogt vehicle_message_type__vehicle_sets 201 13 15_4]
+G c Z s s [Olt vehicle_message_type__vehicle_sets 203 13 15_4]
+G c Z s s [Ogt vehicle_message_type__vehicle_sets 205 13 15_4]
+G c Z s s [Olt vehicle_message_type__vehicle_sets 207 13 15_4]
+G c Z s s [Ogt vehicle_message_type__vehicle_sets 209 13 15_4]
+G c Z s s [iterate vehicle_message_type__vehicle_sets 211 14 15_4]
+G c Z s s [reverse_iterate vehicle_message_type__vehicle_sets 215 14 15_4]
+G c Z s s [iterate vehicle_message_type__vehicle_sets 219 13 15_4]
+G c Z s s [iterate vehicle_message_type__vehicle_sets 223 13 15_4]
+G c Z s s [node_typeIP vehicle_message_type__vehicle_sets 328 9 15_4]
+G c Z s s [adjust vehicle_message_type__vehicle_sets__tree_types__implementation 90 28 52_7_336_4_15_4]
+G c Z s s [finalize vehicle_message_type__vehicle_sets__tree_types__implementation 93 28 52_7_336_4_15_4]
+G c Z s s [zero_counts vehicle_message_type__vehicle_sets__tree_types__implementation 96 17 52_7_336_4_15_4]
+G c Z s s [busy vehicle_message_type__vehicle_sets__tree_types__implementation 100 17 52_7_336_4_15_4]
+G c Z s s [unbusy vehicle_message_type__vehicle_sets__tree_types__implementation 104 17 52_7_336_4_15_4]
+G c Z s s [lock vehicle_message_type__vehicle_sets__tree_types__implementation 108 17 52_7_336_4_15_4]
+G c Z s s [unlock vehicle_message_type__vehicle_sets__tree_types__implementation 112 17 52_7_336_4_15_4]
+G c Z s s [tc_check vehicle_message_type__vehicle_sets__tree_types__implementation 116 17 52_7_336_4_15_4]
+G c Z s s [te_check vehicle_message_type__vehicle_sets__tree_types__implementation 120 17 52_7_336_4_15_4]
+G c Z s s [initialize vehicle_message_type__vehicle_sets__tree_types__implementation 139 28 52_7_336_4_15_4]
+G c Z s s [finalize vehicle_message_type__vehicle_sets__tree_types__implementation 140 28 52_7_336_4_15_4]
+G c Z s s [initialize vehicle_message_type__vehicle_sets__tree_types__implementation 145 28 52_7_336_4_15_4]
+G c Z s s [finalize vehicle_message_type__vehicle_sets__tree_types__implementation 146 28 52_7_336_4_15_4]
+G c Z s s [reference_control_typeDA vehicle_message_type__vehicle_sets__tree_types__implementation 84 12 52_7_336_4_15_4]
+G c Z s s [reference_control_typeDF vehicle_message_type__vehicle_sets__tree_types__implementation 84 12 52_7_336_4_15_4]
+G c Z s s [reference_control_typeIP vehicle_message_type__vehicle_sets__tree_types__implementation 84 12 52_7_336_4_15_4]
+G c Z s s [with_busyDF vehicle_message_type__vehicle_sets__tree_types__implementation 136 12 52_7_336_4_15_4]
+G c Z s s [with_busyIP vehicle_message_type__vehicle_sets__tree_types__implementation 136 12 52_7_336_4_15_4]
+G c Z s s [with_lockDF vehicle_message_type__vehicle_sets__tree_types__implementation 142 12 52_7_336_4_15_4]
+G c Z s s [with_lockIP vehicle_message_type__vehicle_sets__tree_types__implementation 142 12 52_7_336_4_15_4]
+G c Z s s [tree_typeDA vehicle_message_type__vehicle_sets__tree_types 44 12 336_4_15_4]
+G c Z s s [tree_typeDF vehicle_message_type__vehicle_sets__tree_types 44 12 336_4_15_4]
+G c Z s s [tree_typeIP vehicle_message_type__vehicle_sets__tree_types 44 12 336_4_15_4]
+G c Z s s [adjust vehicle_message_type__vehicle_sets 343 25 15_4]
+G c Z s s [write vehicle_message_type__vehicle_sets 352 14 15_4]
+G c Z s s [read vehicle_message_type__vehicle_sets 358 14 15_4]
+G c Z s s [write vehicle_message_type__vehicle_sets 372 14 15_4]
+G c Z s s [read vehicle_message_type__vehicle_sets 378 14 15_4]
+G c Z s s [write vehicle_message_type__vehicle_sets 397 14 15_4]
+G c Z s s [read vehicle_message_type__vehicle_sets 403 14 15_4]
+G c Z s s [pseudo_reference vehicle_message_type__vehicle_sets 414 13 15_4]
+G c Z s s [get_element_access vehicle_message_type__vehicle_sets 424 13 15_4]
+G c Z s s [setDA vehicle_message_type__vehicle_sets 339 9 15_4]
+G c Z s s [setDF vehicle_message_type__vehicle_sets 339 9 15_4]
+G c Z s s [setIP vehicle_message_type__vehicle_sets 339 9 15_4]
+G c Z s s [cursorIP vehicle_message_type__vehicle_sets 367 9 15_4]
+G c Z s s [constant_reference_typeDI vehicle_message_type__vehicle_sets 387 9 15_4]
+G c Z s s [constant_reference_typeDA vehicle_message_type__vehicle_sets 387 9 15_4]
+G c Z s s [constant_reference_typeDF vehicle_message_type__vehicle_sets 387 9 15_4]
+G c Z s s [constant_reference_typeIP vehicle_message_type__vehicle_sets 387 9 15_4]
+G c Z s s [finalize vehicle_message_type__vehicle_sets 440 25 15_4]
+G c Z s s [first vehicle_message_type__vehicle_sets 442 24 15_4]
+G c Z s s [last vehicle_message_type__vehicle_sets 443 24 15_4]
+G c Z s s [next vehicle_message_type__vehicle_sets 445 24 15_4]
+G c Z s s [previous vehicle_message_type__vehicle_sets 449 24 15_4]
+G c Z s s [iteratorDF vehicle_message_type__vehicle_sets 432 9 15_4]
+G c Z s s [iteratorIP vehicle_message_type__vehicle_sets 432 9 15_4]
+G c Z s s [color vehicle_message_type__vehicle_sets 58 13 15_4]
+G c Z s s [left vehicle_message_type__vehicle_sets 61 13 15_4]
+G c Z s s [parent vehicle_message_type__vehicle_sets 64 13 15_4]
+G c Z s s [right vehicle_message_type__vehicle_sets 67 13 15_4]
+G c Z s s [set_color vehicle_message_type__vehicle_sets 70 14 15_4]
+G c Z s s [set_left vehicle_message_type__vehicle_sets 73 14 15_4]
+G c Z s s [set_right vehicle_message_type__vehicle_sets 76 14 15_4]
+G c Z s s [set_parent vehicle_message_type__vehicle_sets 79 14 15_4]
+G c Z s s [copy_node vehicle_message_type__vehicle_sets 86 13 15_4]
+G c Z s s [free vehicle_message_type__vehicle_sets 89 14 15_4]
+G c Z s s [insert_sans_hint vehicle_message_type__vehicle_sets 91 14 15_4]
+G c Z s s [insert_with_hint vehicle_message_type__vehicle_sets 97 14 15_4]
+G c Z s s [is_equal_node_node vehicle_message_type__vehicle_sets 103 13 15_4]
+G c Z s s [is_greater_element_node vehicle_message_type__vehicle_sets 106 13 15_4]
+G c Z s s [is_less_element_node vehicle_message_type__vehicle_sets 111 13 15_4]
+G c Z s s [is_less_node_node vehicle_message_type__vehicle_sets 116 13 15_4]
+G c Z s s [replace_element vehicle_message_type__vehicle_sets 119 14 15_4]
+G c Z s s [min vehicle_message_type__vehicle_sets__tree_operations 51 13 128_4_15_4]
+G c Z s s [max vehicle_message_type__vehicle_sets__tree_operations 54 13 128_4_15_4]
+G c Z s s [vet vehicle_message_type__vehicle_sets__tree_operations 64 13 128_4_15_4]
+G c Z s s [next vehicle_message_type__vehicle_sets__tree_operations 68 13 128_4_15_4]
+G c Z s s [previous vehicle_message_type__vehicle_sets__tree_operations 71 13 128_4_15_4]
+G c Z s s [delete_node_sans_free vehicle_message_type__vehicle_sets__tree_operations 81 14 128_4_15_4]
+G c Z s s [rebalance_for_insert vehicle_message_type__vehicle_sets__tree_operations 157 14 128_4_15_4]
+G c Z s s [delete_fixup vehicle_message_type__vehicle_sets__tree_operations 49 14 128_4_15_4]
+G c Z s s [delete_swap vehicle_message_type__vehicle_sets__tree_operations 51 14 128_4_15_4]
+G c Z s s [left_rotate vehicle_message_type__vehicle_sets__tree_operations 53 14 128_4_15_4]
+G c Z s s [right_rotate vehicle_message_type__vehicle_sets__tree_operations 54 14 128_4_15_4]
+G c Z s s [delete_treeR vehicle_message_type__vehicle_sets__delete_treeGP5300 131 14 15_4]
+G c Z s s [delete_tree vehicle_message_type__vehicle_sets 131 14 15_4]
+G c Z s s [copy_treeR vehicle_message_type__vehicle_sets__copy_treeGP5382 134 13 15_4]
+G c Z s s [copy_tree vehicle_message_type__vehicle_sets 134 13 15_4]
+G c Z s s [is_equalR vehicle_message_type__vehicle_sets__is_equalGP5503 139 13 15_4]
+G c Z s s [is_equal vehicle_message_type__vehicle_sets 139 13 15_4]
+G c Z s s [find vehicle_message_type__vehicle_sets__element_keys 156 13 142_4_15_4]
+G c Z s s [ceiling vehicle_message_type__vehicle_sets__element_keys 161 13 142_4_15_4]
+G c Z s s [floor vehicle_message_type__vehicle_sets__element_keys 166 13 142_4_15_4]
+G c Z s s [upper_bound vehicle_message_type__vehicle_sets__element_keys 171 13 142_4_15_4]
+G c Z s s [union vehicle_message_type__vehicle_sets__set_ops 58 14 149_4_15_4]
+G c Z s s [union vehicle_message_type__vehicle_sets__set_ops 66 13 149_4_15_4]
+G c Z s s [intersection vehicle_message_type__vehicle_sets__set_ops 70 14 149_4_15_4]
+G c Z s s [intersection vehicle_message_type__vehicle_sets__set_ops 74 13 149_4_15_4]
+G c Z s s [difference vehicle_message_type__vehicle_sets__set_ops 78 14 149_4_15_4]
+G c Z s s [difference vehicle_message_type__vehicle_sets__set_ops 82 13 149_4_15_4]
+G c Z s s [symmetric_difference vehicle_message_type__vehicle_sets__set_ops 86 14 149_4_15_4]
+G c Z s s [symmetric_difference vehicle_message_type__vehicle_sets__set_ops 93 13 149_4_15_4]
+G c Z s s [is_subset vehicle_message_type__vehicle_sets__set_ops 98 13 149_4_15_4]
+G c Z s s [overlap vehicle_message_type__vehicle_sets__set_ops 102 13 149_4_15_4]
+G c Z s s [clear vehicle_message_type__vehicle_sets__set_ops 42 14 149_4_15_4]
+G c Z s s [copy vehicle_message_type__vehicle_sets__set_ops 44 13 149_4_15_4]
+G c Z s s [adjustR vehicle_message_type__vehicle_sets__adjustGP9236 267 14 15_4]
+G c Z s s [adjust vehicle_message_type__vehicle_sets 267 14 15_4]
+G c Z s s [clearR vehicle_message_type__vehicle_sets__clearGP10073 304 14 15_4]
+G c Z s s [clear vehicle_message_type__vehicle_sets 304 14 15_4]
+G c Z s s [moveR vehicle_message_type__vehicle_sets__moveGP42400 1435 14 15_4]
+G c Z s s [move vehicle_message_type__vehicle_sets 1435 14 15_4]
+G c Z s s [inter_vehicle_messagesIP vehicle_message_type 20 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 103|6r6 6r33 10r6 10r33 11r6 15r32
+X 5 a-contai.ads
+16K13*Containers 24e19 103|10w10 10r37 11r10 15r36
+X 7 a-cohama.ads
+96R9*Map<20|43R9>
+X 8 a-conhel.ads
+84R12 Reference_Control_Type<20|43R9>
+X 10 a-coorse.ads
+42+9 Element_Type 103|16r7
+47k24*Ordered_Sets 453e32 103|11w21 15r47
+325R9 Node_Type
+326P9 Node_Access(325R9)
+X 11 a-coorse.adb
+58V13 Color{12|37E9} 15|45i19
+61V13 Left{10|326P9[103|15]} 15|41i19[103|15]
+64V13 Parent{10|326P9} 15|39i19
+67V13 Right{10|326P9[103|15]} 15|43i19[103|15]
+70U14 Set_Color 15|46i19[103|15]
+73U14 Set_Left 15|42i19
+76U14 Set_Right 15|44i19[103|15]
+79U14 Set_Parent 15|40i19[103|15]
+X 22 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[10|70]>
+X 25 a-reatim.ads
+39K13*Real_Time 185e18 103|6w10 6r37
+49O9*Time<duration> 103|23r42
+X 40 gl-buffer-general.ads
+14R9 base_Object<39|20R9>
+X 58 swarm_structures_base.ads
+10K9*Swarm_Structures_Base 49e26 103|9w6 9r33
+16A12*Velocities{100|14A12}<100|10E9> 103|27r42
+25F9*Vehicle_Charges<long_float> 103|26r42
+X 59 system.ads
+67M9*Address
+X 71 s-memory.ads
+53V13*Alloc{59|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{59|67M9} 105i<c,__gnat_realloc>22
+X 80 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 82 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 100 vectors_3d.ads
+8K9*Vectors_3D 41e15 103|8w6 8r33
+14A12*Vector_3D{101|14A9[12]}<10E9> 103|25r42
+X 101 vectors_xd.ads
+14A9*Vector_xD(long_float)<100|10E9>
+X 103 vehicle_message_type.ads
+13K9*Vehicle_Message_Type 31l5 31e25
+15K12*Vehicle_Sets[10|47] 18r8
+20R9*Inter_Vehicle_Messages 29e17
+23o10*Global_Time_When_Message_Sent{25|49O9}
+24i10*ID_Of_Sender{positive}
+25a10*Energy_Globe_Position{100|14A12}
+26f10*Energy_of_this_vehicle{58|25F9}
+27a10*Energy_Globe_Velocity{58|16A12}
+
