@@ -65,6 +65,6 @@ bindings/windows/lib/x86-64/dynamic/freeglut.dll
 ```
 
 
-### Environment variables
+### Environment variables 环境变量
 
 The environment variable `SWARM_MODEL` may be set to configure the design of the spaceships. This feature is incomplete and not related to any assessed components. The valid values of `SWARM_MODEL` are secret. Explore the assignment source files if you want to find them.
